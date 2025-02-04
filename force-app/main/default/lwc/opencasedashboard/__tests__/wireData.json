@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "Id": "500Ru00000Fe8brIAB",
+            "Subject": "Seeking guidance on electrical wiring installation for GC5060",
+            "Reason": "Installation",
+            "Origin": "Web",
+            "Priority": "Low",
+            "CaseNumber": "00001002"
+        },
+        {
+            "Id": "500Ru00000Fe8c5IAB",
+            "Subject": "Maintenance guidelines for generator unclear",
+            "Reason": "Feedback",
+            "Origin": "Web",
+            "Priority": "Low",
+            "CaseNumber": "00001016"
+        },
+        {
+            "Id": "500Ru00000Fe8cDIAR",
+            "Subject": "Big Issue",
+            "Reason": "Equipment Design",
+            "Origin": "Web",
+            "Priority": "Low",
+            "CaseNumber": "00001024"
+        },
+        {
+            "Id": "500Ru00000FgMzhIAF",
+            "Subject": "Test",
+            "Priority": "Medium",
+            "CaseNumber": "00001027"
+        }
+    ]
+}

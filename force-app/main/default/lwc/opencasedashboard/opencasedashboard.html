@@ -1,0 +1,29 @@
+<template>
+    <div class="slds-card">
+        <div class="slds-card__header-title" title="Open Cases">
+            Open Cases
+        </div>
+        
+            <div class="slds-card__body">
+                <lightning-datatable key-field="Id" data={caseList.data} columns={columns} onsave={handleSave}
+                    draft-values={draftValues}>
+                </lightning-datatable>
+            </div>
+            <div class="slds-card__header-title" title="Add new case">
+                Add a new case
+            </div>
+            <lightning-record-edit-form object-api-name="Case" onsuccess={refreshlist}>
+                <div class="slds-card">
+
+                    <lightning-input-field field-name="Origin"></lightning-input-field>
+                    <lightning-input-field field-name="Accountid"></lightning-input-field>
+                    <lightning-input-field field-name="Description"></lightning-input-field>
+                    <lightning-input-field field-name="Status"></lightning-input-field>
+                    <lightning-input-field field-name="Priority"></lightning-input-field>
+                    <lightning-input-field field-name="Subject"></lightning-input-field>
+                    <lightning-button type="submit" variant="brand" name="save" label="Save Record"></lightning-button>
+                </div>
+            </lightning-record-edit-form>
+        
+    </div>
+</template>
