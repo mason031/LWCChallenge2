@@ -1,12 +1,19 @@
 {
   "packageDirectories": [
     {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "LWCChallenge2",
+      "versionDescription": ""
     }
   ],
   "name": "LWCChallenge2",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "62.0"
+  "sourceApiVersion": "62.0",
+  "packageAliases": {
+    "LWCChallenge2": "0Hoaj0000000LxJCAU"
+  }
 }
